@@ -18,6 +18,6 @@ if ($client->variation("YOUR_FEATURE_FLAG_KEY", $user, false)) {
   echo "Showing your feature to " . $user->getKey() . "\n";
 } else {
   // the code to run if the feature is off
-  echo "Not showing your feature to " . $user->getKey() . "\n";
+  echo "HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA----Not showing your feature to " . $user->getKey() . "\n";
 }
 ?>
